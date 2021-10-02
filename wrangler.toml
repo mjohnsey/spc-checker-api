@@ -1,0 +1,12 @@
+name = "spc-checker-api"
+type = "javascript"
+zone_id = "1b7d267e709bab5202039530367ce884"
+account_id = "d46faf4c2e7e294da60fc8243c29b7d4"
+route = "spc-check.cloud/api/*"
+workers_dev = false
+compatibility_date = "2021-10-02"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
